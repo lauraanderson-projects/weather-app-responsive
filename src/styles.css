@@ -12,23 +12,6 @@ header {
   padding-bottom: 25px;
 }
 
-footer {
-  color: rgb(146, 146, 146);
-  padding: 40px 0px 0px 0px;
-  font-size: 13px;
-  text-align: center;
-}
-
-footer a {
-  color: rgb(146, 146, 146);
-  text-decoration: none;
-  font-weight: 800;
-}
-footer a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
 .weather-main {
   background-color: white;
   max-width: 650px;
@@ -66,8 +49,8 @@ footer a:hover {
 }
 .current-weather-icon {
   font-size: 40px;
-  position: relative;
-  top: 10px;
+  /*position: relative;
+  top: -10px;*/
   width: 100px;
 }
 
@@ -118,4 +101,21 @@ footer a:hover {
   text-align: center;
   color: #537895;
   padding: 0 10px;
+}
+
+footer {
+  color: rgb(146, 146, 146);
+  padding: 40px 0px 0px 0px;
+  font-size: 13px;
+  text-align: center;
+}
+
+footer a {
+  color: rgb(146, 146, 146);
+  text-decoration: none;
+  font-weight: 800;
+}
+footer a:hover {
+  color: white;
+  text-decoration: underline;
 }
