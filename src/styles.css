@@ -47,12 +47,12 @@ footer a:hover {
 }
 .city-search-submit {
   background-color: #537895;
-  color: white;
+  /*color: white;
   font-size: 16px;
   border-radius: 4px;
   border: none;
   padding: 15px 43px;
-  margin-left: 8px;
+  margin-left: 8px;*/
 }
 .current-details strong {
   color: #537895;
@@ -60,9 +60,9 @@ footer a:hover {
   line-height: 1.8;
 }
 .current-city-temperature {
-  display: flex;
+  /*display: flex;
   justify-content: space-between;
-  color: rgb(146, 146, 146);
+  color: rgb(146, 146, 146);*/
 }
 .current-weather-icon {
   font-size: 40px;
@@ -87,10 +87,11 @@ footer a:hover {
 }
 
 .weather-forecast {
+  /*
   display: flex;
   justify-content: space-between;
   padding: 0px;
-  margin-top: 20px;
+  margin-top: 20px;*/
 }
 .weather-forecast-date {
   font-size: 20px;
@@ -108,9 +109,9 @@ footer a:hover {
 }
 
 .weather-forecast-temperatures {
-  display: flex;
+  /*display: flex;
   justify-content: space-between;
-  justify-content: center;
+  justify-content: center;*/
 }
 .weather-forecast-temperature {
   font-size: 14px;
