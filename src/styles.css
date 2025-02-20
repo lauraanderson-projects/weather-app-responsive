@@ -1,0 +1,120 @@
+body {
+  background: linear-gradient(to top, #09203f 0%, #537895 100%) fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: black;
+}
+header {
+  padding-bottom: 25px;
+}
+
+footer {
+  color: rgb(146, 146, 146);
+  padding: 40px 0px 0px 0px;
+  font-size: 13px;
+  text-align: center;
+}
+
+footer a {
+  color: rgb(146, 146, 146);
+  text-decoration: none;
+  font-weight: 800;
+}
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.weather-main {
+  background-color: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.city-search-entry {
+  background: rgb(246, 246, 246);
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  width: 75%;
+}
+.city-search-submit {
+  background-color: #537895;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  padding: 15px 43px;
+  margin-left: 8px;
+}
+.current-details strong {
+  color: #537895;
+  font-weight: 800;
+  line-height: 1.8;
+}
+.current-city-temperature {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(146, 146, 146);
+}
+.current-weather-icon {
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+  width: 100px;
+}
+
+.current-weather-temp {
+  font-size: 80px;
+  color: black;
+  font-weight: 900;
+}
+.current-weather-degree {
+  font-size: 25px;
+  color: black;
+  position: relative;
+  top: -40px;
+}
+.weeklyTemp {
+  padding: 0px 0px;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin-top: 20px;
+}
+.weather-forecast-date {
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  color: #537895;
+}
+
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 40px;
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+}
+
+.weather-forecast-temperatures {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.weather-forecast-temperature {
+  font-size: 14px;
+  text-align: center;
+  color: #537895;
+  padding: 0 10px;
+}
